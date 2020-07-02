@@ -31,7 +31,7 @@ public class MessageConnectorImpl implements MessageConnector {
             if(log.isDebugEnabled()){
                 log.info("enviando mensagem para o mq '{}'", messageDTO.getMessage());
             }
-            log.info("enviando mensagem com tamanho de: {} caracteres", messageDTO.getMessage().length());
+            log.info("enviando mensagem com tamanho de: {} caracteres para a fila '{}'", messageDTO.getMessage().length(), this.connectionConfigProperties.getQueue());
             this.jmsTemplate.convertAndSend(this.connectionConfigProperties.getQueue(), messageDTO.getMessage());
             log.info("mensagem enviada com sucesso.");
         }catch (JmsException ex){
