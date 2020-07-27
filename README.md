@@ -26,12 +26,12 @@ MQ-Web-Client is a service you can simulate communication to a IBM MQ Queue
 
 ## Environment Variables
 User and password are not used in dev profile, as the MQ dev it is not mandatory to set it.
-MQ_QUEUEMANAGER - Queue manager
-MQ_CHANNEL - Queue Channel
-MQ_CONN_NAME - Connection String
-MQ_USERNAME - User name
-MQ_PASSOWRD - User password
-MQ_QUEUE - Queue id
+1. MQ_QUEUEMANAGER - Queue manager
+2. MQ_CHANNEL - Queue Channel
+3. MQ_CONN_NAME - Connection String
+4. MQ_USERNAME - User name
+5. MQ_PASSOWRD - User password
+6. MQ_QUEUE - Queue id
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
