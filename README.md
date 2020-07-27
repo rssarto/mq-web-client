@@ -9,19 +9,19 @@ MQ-Web-Client is a service you can simulate communication to a IBM MQ Queue
 
 ## Usage - Development Environment
 1. Access the repository folder
-2. Open the folder mq-stack and execute the command below:
+2. Open the folder mq-stack and execute the command below:<br />
    -> docker-compose up -d
 3. Back to the repository root folder
-4. Open the folder mq-web-client-app and execute the command below:
+4. Open the folder mq-web-client-app and execute the command below:<br />
    -> mvn clean install -DskipTests
-5. To start the service run the command below
+5. To start the service run the command below:<br />
    -> java -jar -Dspring.profiles.active=dev ./target/mq-web-client-app-0.0.1-SNAPSHOT.jar
 
 ## Usage - Production Environment
 1. Access the repository folder
-2. Open the folder mq-web-client-app and execute the command below:
+2. Open the folder mq-web-client-app and execute the command below:<br />
    -> mvn clean install -DskipTests
-3. To start the service run the command below
+3. To start the service run the command below: <br />
    -> java -jar -Dspring.profiles.active=prod ./target/mq-web-client-app-0.0.1-SNAPSHOT.jar
 
 ## Environment Variables
