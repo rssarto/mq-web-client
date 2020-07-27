@@ -30,7 +30,7 @@ User and password are not used in dev profile, as the MQ dev it is not mandatory
 2. MQ_CHANNEL - Queue Channel
 3. MQ_CONN_NAME - Connection String
 4. MQ_USERNAME - User name
-5. MQ_PASSOWRD - User password
+5. MQ_PASSWORD - User password
 6. MQ_QUEUE - Queue id
 
 ## Contributing
